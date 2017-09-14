@@ -163,10 +163,8 @@ class BayeuxClient(object):
         )
 
         LOG.info(
-            '_send_message(): response status code: {0}  '
-            'response.text: {1}'.format(
-                response.status_code,
-                response.text
+            '_send_message(): response status code: {0}  '.format(
+                response.status_code
             )
         )
 
